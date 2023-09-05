@@ -1,0 +1,142 @@
+// let condicao1 = true
+
+// if (condicao1){
+//     console.log("entrei no if 1")
+// }
+
+// let condicao2 = false
+
+// if (condicao2){
+//     console.log("entrei no if 2")
+// }
+
+// exercicio 1
+
+// let n1 = Number(prompt("fale um numero"))
+// let n2 = Number(prompt("fale outro numero"))
+
+
+// function calculo(num1, num2){
+//     if(num1 === num2){
+//         console.log("sussesso")
+//     }
+//     else{
+//         console.log("falhou")
+//     }
+// }
+
+// calculo(n1, n2)
+
+// exercicio 1.1
+
+// const nome = prompt("digite seu nome")
+// const idade = prompt("digite a sua idade")
+
+// function permicao(fulano, anos){
+//     if(anos >= 18){
+//         console.log(fulano, "pode dirigir")
+//     }
+//     else{
+//         console.log("voce nao pode dirigir")
+//     }
+// }
+
+// permicao(nome, idade)
+
+// ======================================================================================
+// let condicao = false
+
+// if(condicao){
+//     console.log("entrei no if")
+// }else{
+//     console.log("entrei no else")
+// }
+
+// exercicio 2
+// let n1 = Number(prompt("fale um numero"))
+// let n2 = Number(prompt("fale outro numero"))
+
+
+// function calculo(num1, num2){
+//     if(num1 === num2){
+//         console.log("iguais")
+//     }
+//     else{
+//         console.log("diferentes")
+//     }
+// }
+
+// calculo(n1, n2)
+
+// exercicio 3
+
+// let n1 = Number(prompt("fale um numero"))
+// let n2 = Number(prompt("fale outro numero"))
+
+
+// function calculo(num1, num2) {
+//     if (num1 === num2) {
+//         console.log("iguais")
+//     } else if (num1 > num2) {
+//         console.log("ele é maior")
+//     } else if (num1 < num2) {
+//         console.log("ele é menor")
+//     }
+// }
+
+// calculo(n1, n2)
+
+// =======================================================================================
+
+// let paisDeOrigem = prompt("fale o seu pais")
+// switch (paisDeOrigem) {
+//     case "Brasil":
+//         console.log("brasileiro")
+//         break;
+//     case "EUA":
+//         console.log("norte americano")
+//         break;
+//     case "Inglaterra":
+//         console.log("ingles")
+//         break;
+
+//     default:
+//         console.log("nacionalidade nao encontrada")
+//         break;
+// }
+
+// exercicio 4
+
+// let pokemons = prompt("escolha um dos tres pokemons iniciais, bulbasauro, charmander, squirtle")
+
+
+// switch (pokemons) {
+//     case "bilbasauro":
+//         console.log("seu pokemon é o bulbasauro do tipo planta e veneno")
+//         break
+//     case "charmander":
+//         console.log("seu pokemon é o charmander do tipo fogo")
+//         break
+//     case "squirtle":
+//         console.log("seu pokemon é o squirtle do tipo agua")
+//         break
+//     default:
+//         console.log("pokemon nao encontrado")
+//         break
+// }
+
+// exercicio 5
+
+// let ensino = prompt("voce concluiu o ensino medio?").toLowerCase
+// let idade = Number(prompt("qual a sua idade?"))
+// let cursando = prompt("voce esta cursando alguma faculdade?")
+
+// function faculdade(medio, idade, faculdade){
+//     if(medio == "sim" && idade >= 18 && faculdade == "nao"){
+//         return "pode estudar na faculdade"
+//     }else{
+//         return "nao pode estudar na faculdade"
+//     }
+// }
+
+// console.log(faculdade(ensino, idade, cursando))
